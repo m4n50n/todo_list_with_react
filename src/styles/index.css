@@ -1,3 +1,75 @@
+body {
+  min-height: 100vh;
+  background: #fdda307d;
+}
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  text-shadow: 3px 3px 7px #c19100;
+}
+
+.list-title h5 {
+  text-align: center;
+}
+
+.list-title h5 span {
+  display: inline-block;
+  text-transform: capitalize;
+  padding: 0 0.5rem;
+}
+
+h5,
+input,
+select,
+.task {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #292934;
+}
+
+input {
+  caret-color: #ffc720;
+}
+
+select:focus,
+input:focus {
+  border: 1px solid #ffc821 !important;
+}
+
+.form-check input {
+  font-size: 17px;
+  border: 1px solid #919191;
+}
+
+.form-check-input:checked {
+  background-color: #75bd14;
+  border: none;
+}
+
 select {
-    text-transform: capitalize;
+  text-transform: capitalize;
+}
+
+.task {
+  order: 2;
+  padding: 4px;
+  background-color: white;
+}
+
+.task.high {
+  order: 1;
+  border: 1px solid #dc35453b;
+  background-color: #dc35453b;
+}
+
+.task.low {
+  order: 3;
+  border: 1px solid #0dcaf036;
+  background-color: #0dcaf036;
+}
+
+.task.completed {
+  order: 4;
+  border: 1px solid #30f00d36;
+  background-color: #30f00d36;
 }
