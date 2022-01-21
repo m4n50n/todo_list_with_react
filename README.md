@@ -4,13 +4,14 @@
 
 ## Instructions 📄
 
-* The tasks are added when the user enters any text and press the ***Enter*** key.
-* The delete icon shows on the side of every task. In <u>large</u> resolutions they will be displayed on ***hover***; In <u>small</u> resolutions they will be displayed by default.
+* The tasks are added when the user enters any text and press the ***Enter*** key or press the ***Add*** button.
+* The *delete icon* shows on the side of every task. In <u>large</u> resolutions they will be displayed on ***hover***; In <u>small</u> resolutions they will be displayed by default.
+* The *task completion icon* shows at the beggining of each task.
 * The user can add as many tasks as needed.
 * When there is no tasks the list will say *No tasks, add a task*.
-* The number of added tasks is displayed in the lower left corner.
+* Total tasks numbers will be displayed by priorities and status.
 * If there are added tasks, the ***Remove all*** button will be displayed in the lower right corner.
-* The tasks can only be deleted.
+* The tasks can only be deleted or marked / unmarked as completed.
 
 ## Preview 🎬
 * You can open this repository in **Gitpod**.
