@@ -16,7 +16,8 @@ const TodoList = (props) => {
 											props.TasksList.filter(
 												(Task) =>
 													Task.priority ===
-													PriorityName
+														PriorityName &&
+													!Task.completed
 											).length}
 									</span>
 								)
