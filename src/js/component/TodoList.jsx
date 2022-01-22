@@ -41,6 +41,7 @@ const TodoList = (props) => {
 									onClick={() =>
 										props.CompleteTask(TaskIndex)
 									}
+									defaultChecked={Task.completed}
 								/>
 							</div>
 
