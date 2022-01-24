@@ -38,10 +38,10 @@ const TodoList = (props) => {
 									type="checkbox"
 									title="Mark as completed"
 									className="form-check-input ps-2 shadow-none"
-									onClick={() =>
+									onChange={() =>
 										props.CompleteTask(TaskIndex)
-									}
-									defaultChecked={Task.completed}
+									}									
+									checked={Task.completed ? "checked" : ""}
 								/>
 							</div>
 
